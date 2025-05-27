@@ -2,7 +2,7 @@ import { FcGoogle } from "react-icons/fc"
 import { useSelector } from "react-redux"
 
 import frameImg from "../../../assets/Images/frame.png"
-import LoginFormComponent from "../auth/LoginFormComponent"
+import LoginFormComponent from "./LoginFormComponent"
 import SignupForm from "./SignupForm"
 
 function Template({ title, description1, description2, image, formType }) {
