@@ -2,7 +2,6 @@ import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import Banner from '../assets/Images/screen_logo.webp'
-import CodeDetailsContent from '../Components/core/homepage/CodeDetailsContent';
 import Footer from '../components/common/Footer';
 import HighlightText from '../components/core/HomePage/HighlightText';
 import CodeAnimation from '../components/core/HomePage/CodeAnimation';
@@ -10,9 +9,10 @@ import TimeLineSection from '../components/core/HomePage/TimeLineSection';
 import LearningLanguageSection from '../components/core/HomePage/LearningLanguageSection';
 import ExploreMore from '../components/core/HomePage/ExploreMore';
 import InstructorSection from '../components/core/HomePage/IntructorSection';
-import Button from '../Components/core/homepage/Button';
+
 import t1 from '../assets/Images/t1.png';
 import t2 from '../assets/Images/t2.png'
+import Button from '../components/core/homepage/Button';
 
 const Home = () => {
     return (
