@@ -4,11 +4,7 @@ import { Link } from 'react-router-dom';
 import Banner from '../assets/Images/screen_logo.webp'
 import Footer from '../components/common/Footer';
 import HighlightText from '../components/core/HomePage/HighlightText';
-import CodeAnimation from '../components/core/HomePage/CodeAnimation';
-import TimeLineSection from '../components/core/HomePage/TimeLineSection';
-import LearningLanguageSection from '../components/core/HomePage/LearningLanguageSection';
-import ExploreMore from '../components/core/HomePage/ExploreMore';
-import InstructorSection from '../components/core/HomePage/IntructorSection';
+
 
 import t1 from '../assets/Images/t1.png';
 import t2 from '../assets/Images/t2.png'
