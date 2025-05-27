@@ -1,0 +1,13 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.custom-justify {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.homepage_bg {
+    background: url('./assets/Images/bghome.svg');
+}

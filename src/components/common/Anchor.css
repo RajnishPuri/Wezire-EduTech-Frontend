@@ -1,0 +1,9 @@
+a {
+    color: #6E727F;  /* Force text color */
+    text-decoration: none;
+    transition: color 200ms ease-in-out;
+}
+
+a:hover {
+    color: #f5f5f5; /* Adjust hover color */
+}
