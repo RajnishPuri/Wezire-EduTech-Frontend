@@ -6,7 +6,7 @@ import { useLocation } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { FaShoppingCart } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
-import ProfileDropdown from '../core/auth/ProfileDropdown';
+import ProfileDropdown from '../core/Auth/ProfileDropdown';
 import { categories } from '../../services/apis';
 import { apiConnector } from '../../services/apiconnector';
 import { ArrowDown } from 'lucide-react';
