@@ -38,6 +38,28 @@ export default function ChipInput({
     }
   }
 
+  const handleBlur = (event) => {
+    const chipValue = event.target.value.trim()
+    if (chipValue && !chips.includes(chipValue)) {
+      const newChips = [...chips, chipValue]
+      setChips(newChips)
+      event.target.value = ""
+    }
+  }
+
+  const handleInput = (event) => {
+    const { value } = event.target
+    if (value.includes(",")) {
+      const [first, ...rest] = value.split(",")
+      const chipValue = first.trim()
+      if (chipValue && !chips.includes(chipValue)) {
+        const newChips = [...chips, chipValue]
+        setChips(newChips)
+      }
+      event.target.value = rest.join(",")
+    }
+  }
+
   const handleDeleteChip = (chipIndex) => {
     const newChips = chips.filter((_, index) => index !== chipIndex)
     setChips(newChips)
@@ -70,6 +92,8 @@ export default function ChipInput({
           type="text"
           placeholder={placeholder}
           onKeyDown={handleKeyDown}
+          onBlur={handleBlur}
+          onInput={handleInput}
           className="form-style w-full placeholder:text-richblack-500 border p-2 border-richblack-400 rounded text-white"
         />
       </div>
