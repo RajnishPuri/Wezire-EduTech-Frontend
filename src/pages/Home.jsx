@@ -12,7 +12,9 @@ import InstructorSection from '../components/core/HomePage/IntructorSection';
 
 import t1 from '../assets/Images/t1.png';
 import t2 from '../assets/Images/t2.png'
-import Button from '../Components/core/homepage/Button';
+import Button from './Button';
+
+
 
 
 const Home = () => {

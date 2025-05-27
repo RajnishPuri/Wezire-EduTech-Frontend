@@ -3,7 +3,8 @@ import HighlightText from './HighlightText';
 import Know_your_progress from '../../../assets/Images/Know_your_progress.png';
 import Plan_your_lessons from '../../../assets/Images/Plan_your_lessons.png';
 import Compare_With_others from '../../../assets/Images/Compare_With_others.png';
-import Button from './Button';
+import Button from '../../../pages/Button';
+
 
 const LearningLanguageSection = () => {
     return (
