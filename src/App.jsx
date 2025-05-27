@@ -4,12 +4,12 @@ import Home from "./pages/Home";
 import Navbar from "./components/common/Navbar"
 import OpenRoute from "./components/core/Auth/OpenRoute";
 
-import Login from "./Pages/Login";
+import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import ForgotPassword from "./Pages/ForgotPassword";
-import VerifyEmail from "./Pages/VerifyEmail";
-import UpdatePassword from "./Pages/UpdatePassword";
-import About from "./Pages/About";
+import ForgotPassword from "./pages/ForgotPassword";
+import VerifyEmail from "./pages/VerifyEmail";
+import UpdatePassword from "./pages/UpdatePassword";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 import MyProfile from "./components/core/Dashboard/MyProfile";
 import PrivateRoute from "./components/core/Auth/PrivateRoute";
